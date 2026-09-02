@@ -22,9 +22,9 @@ I enjoy taking loosely defined operational problems and turning them into practi
 
 A Laravel and Livewire personal-finance application that integrates with Plaid. It supports account and transaction synchronization, user-defined categories, transfer matching, reporting, filtering, demo data, browser tests, static analysis, and CI.
 
-### [Claude Session Manager](https://github.com/loki495/claude-session-manager)
+### [Sessioneer](https://github.com/loki495/sessioneer)
 
-A self-hosted PHP interface for managing local Claude Code and OpenCode sessions. It integrates with tmux and local processes to display transcripts, surface blocked prompts, send responses, search session history, and manage active or archived sessions from a browser.
+A self-hosted PHP interface for managing local ai agents and sessions (currently Claude Code, OpenAI Codex, Google Antigravity and OpenCode). It integrates with tmux and local processes to display transcripts, surface blocked prompts, send responses, search session history, and manage active or archived sessions from a browser.
 
 ### [Homie](https://github.com/loki495/homie)
 
