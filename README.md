@@ -17,6 +17,14 @@ The three projects below are mine end to end: **nearly 4,000 automated tests and
 - PHPStan, Rector, CI/CD, and GitHub Actions
 - Linux, Docker Compose, AWS, Nginx, Apache, and Cloudflare
 
+## Experience snapshot
+
+15+ years of continuous hands-on PHP development and systems administration, primarily as the principal developer for one small-business owner across several business ventures:
+
+- **2020-present:** Laravel/Livewire applications, e-commerce automation, reservations, CRM, integrations, and production infrastructure
+- **2014-2020:** Custom PHP, WordPress, hosting, migrations, and systems administration for 20-30 local-business websites
+- **2010-2014:** E-commerce and dropshipping systems, distributor imports, payment gateways, and 20,000+ product catalogs
+
 ## Selected projects
 
 ### [Insights](https://github.com/loki495/insights) — Laravel · Livewire Volt · Plaid · AGPL-3.0
