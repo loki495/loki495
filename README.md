@@ -39,7 +39,7 @@ A personal-finance application that syncs bank and credit transactions through *
 
 A home-lab dashboard for organizing services into configurable cards, including links, plain Bash command output, and live API data from services such as Sonarr, Radarr, and NZBGet. It can also discover Docker services on LAN machines over the Docker API or SSH after configuring the target machine and starting a scan. Built to be genuinely distributable: no hostname, service, or credential exists anywhere in the code. **161 tests** in CI, plus a containerized real-browser suite.
 
-I use AI tools selectively to accelerate research and implementation; I review, test, and take responsibility for the architecture and final code. I bring 15+ years of PHP experience, including many years before I began using AI coding tools.
+I use AI tools selectively to accelerate research and implementation; I review, test, and take responsibility for the architecture and final code.
 
 ## Open-source contributions
 
