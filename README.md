@@ -27,15 +27,15 @@ The three projects below are mine end to end: **nearly 4,000 automated tests and
 
 ## Selected projects
 
-### [Insights](https://github.com/loki495/insights) — Laravel · Livewire Volt · Plaid · AGPL-3.0
+### [Insights](https://github.com/loki495/insights) [![CI](https://github.com/loki495/insights/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/insights/actions/workflows/ci.yml) — Laravel · Livewire Volt · Plaid · AGPL-3.0
 
 A personal-finance application that syncs bank and credit transactions through **Plaid**, with hierarchical user categories, rule-based auto-categorization, transfer matching, and Chart.js reporting. **1,100+ automated checks** (Pest + Playwright) on a CI pipeline that runs the suite against **both SQLite and a live MySQL 8 service**, then builds the production Docker image, boots it, and smoke-tests it. PHPStan, Rector, Pint and Peck gate every push.
 
-### [Sessioneer](https://github.com/loki495/sessioneer) — PHP · tmux · UNIX sockets · MIT
+### [Sessioneer](https://github.com/loki495/sessioneer) [![CI](https://github.com/loki495/sessioneer/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/sessioneer/actions/workflows/ci.yml) — PHP · tmux · UNIX sockets · MIT
 
 ~24k lines of PHP behind a two-runtime architecture: the Dockerized web UI communicates over a UNIX socket with a host-native agent, keeping tmux and host-process access out of the container. Supports both tmux-backed sessions (Claude Code, Antigravity, and OpenCode’s fallback mode) and headless agent servers (OpenCode’s default mode and Codex), all managed from any browser, including mobile, with live transcripts, blocked-prompt answering, history search, and session lifecycle controls. Backed by 35 dependency-free, self-isolating test files containing **2,400+ automated checks** that never touch the real tmux server.
 
-### [Homie](https://github.com/loki495/homie) — Laravel 13 · Livewire 4 · Flux · MIT
+### [Homie](https://github.com/loki495/homie) [![CI](https://github.com/loki495/homie/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/homie/actions/workflows/ci.yml) — Laravel 13 · Livewire 4 · Flux · MIT
 
 A home-lab dashboard for organizing services into configurable cards, including links, plain Bash command output, and live API data from services such as Sonarr, Radarr, and NZBGet. It can also discover Docker services on LAN machines over the Docker API or SSH after configuring the target machine and starting a scan. Built to be genuinely distributable: no hostname, service, or credential exists anywhere in the code. **390+ automated checks** in CI, plus a containerized real-browser suite.
 
