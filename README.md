@@ -39,6 +39,8 @@ A personal-finance application that syncs bank and credit transactions through *
 
 A home-lab dashboard for organizing services into configurable cards, including links, plain Bash command output, and live API data from services such as Sonarr, Radarr, and NZBGet. It can also discover Docker services on LAN machines over the Docker API or SSH after configuring the target machine and starting a scan. Built to be genuinely distributable: no hostname, service, or credential exists anywhere in the code. **161 tests** in CI, plus a containerized real-browser suite.
 
+**Also:** [dotfiles](https://github.com/loki495/dotfiles) [![CI](https://github.com/loki495/dotfiles/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dotfiles/actions/workflows/ci.yml) — my Arch Linux and PHP dev-tooling setup. CI runs the real installer in a container on every push, asserts on every symlink it creates, then opens each supported language in a live tmux + Neovim session to confirm treesitter highlighting actually loads.
+
 I use AI tools selectively to accelerate research and implementation; I review, test, and take responsibility for the architecture and final code.
 
 ## Open-source contributions
