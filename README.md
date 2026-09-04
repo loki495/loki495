@@ -4,7 +4,9 @@
 
 15+ years building, integrating, deploying, and supporting production e-commerce and business applications in PHP — from initial schema design through deployment, on-call troubleshooting, and years of ongoing ownership. Strongest in Laravel, Livewire, REST integrations, MySQL, automated testing, and the Linux and Docker infrastructure underneath.
 
-The three projects below are mine end to end: **750+ automated tests** between them, CI gating every push on static analysis and the full suite (including real-browser tests), and an open-source licence on each.
+The three projects below are mine end to end: **nearly 4,000 automated tests and checks** between them, CI gating every push on static analysis and the full suite, including browser smoke tests, and an open-source licence on each.
+
+[Resume (PDF)](./Andres-Crucitti-PHP-Laravel-Developer.pdf)
 
 ## Current focus
 
@@ -19,17 +21,17 @@ The three projects below are mine end to end: **750+ automated tests** between t
 
 ### [Insights](https://github.com/loki495/insights) — Laravel · Livewire Volt · Plaid · AGPL-3.0
 
-A personal-finance application that syncs bank and credit transactions through **Plaid**, with hierarchical user categories, rule-based auto-categorization, transfer matching, and Chart.js reporting. **600 tests** (Pest + Playwright) on a CI pipeline that runs the suite against **both SQLite and a live MySQL 8 service**, then builds the production Docker image, boots it, and smoke-tests it. PHPStan, Rector, Pint and Peck gate every push.
+A personal-finance application that syncs bank and credit transactions through **Plaid**, with hierarchical user categories, rule-based auto-categorization, transfer matching, and Chart.js reporting. **1,100+ automated checks** (Pest + Playwright) on a CI pipeline that runs the suite against **both SQLite and a live MySQL 8 service**, then builds the production Docker image, boots it, and smoke-tests it. PHPStan, Rector, Pint and Peck gate every push.
 
 ### [Sessioneer](https://github.com/loki495/sessioneer) — PHP · tmux · UNIX sockets · MIT
 
-~24k lines of PHP behind a **deliberate two-runtime architecture**: the Dockerized web UI holds no tmux or `/proc` access at all and speaks a one-request/one-response JSON protocol over a UNIX socket to a host-native, systemd-socket-activated agent — because a tmux server spawned from inside a container is born in the wrong filesystem namespace. Drives Claude Code, Codex, OpenCode and Antigravity sessions from a phone: live transcripts, blocked-prompt answering, history search, session lifecycle. Backed by a dependency-free, self-isolating test suite (35 files, ~12k lines) that never touches the real tmux server.
+~24k lines of PHP behind a two-runtime architecture: the Dockerized web UI communicates over a UNIX socket with a host-native agent, keeping tmux and host-process access out of the container. Supports both tmux-backed sessions (Claude Code, Antigravity, and OpenCode’s fallback mode) and headless agent servers (OpenCode’s default mode and Codex), all managed from any browser, including mobile, with live transcripts, blocked-prompt answering, history search, and session lifecycle controls. Backed by 35 dependency-free, self-isolating test files containing **2,400+ automated checks** that never touch the real tmux server.
 
 ### [Homie](https://github.com/loki495/homie) — Laravel 13 · Livewire 4 · Flux · MIT
 
-A home-lab dashboard that auto-discovers Docker services over the API or SSH — including host-network containers, which report no ports and need an `inspect` fallback to find at all — and pulls live stats from self-hosted service APIs. Built to be genuinely distributable: no hostname, service, or credential exists anywhere in the code. Three-job CI on the declared PHP floor rather than the dev container's newer version, plus a containerized real-browser suite.
+A home-lab dashboard for organizing services into configurable cards, including links, plain Bash command output, and live API data from services such as Sonarr, Radarr, and NZBGet. It can also discover Docker services on LAN machines over the Docker API or SSH after configuring the target machine and starting a scan. Built to be genuinely distributable: no hostname, service, or credential exists anywhere in the code. **390+ automated checks** in CI, plus a containerized real-browser suite.
 
-All three were built with AI-assisted workflows and full review — the test suites and CI above are why I trust the output.
+I use AI tools selectively to accelerate research and implementation; I review, test, and take responsibility for the architecture and final code. I bring 15+ years of PHP experience, including many years before I began using AI coding tools.
 
 ## Open-source contributions
 
@@ -44,5 +46,7 @@ Remote is my preference, but I am equally open to hybrid or on-site work anywher
 
 ## Contact
 
+- [GitHub profile](https://github.com/loki495)
 - [LinkedIn](https://www.linkedin.com/in/andres-crucitti-32ab2313)
+- +1 (714) 936-1988
 - andres@ac495.net
