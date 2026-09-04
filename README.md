@@ -1,10 +1,10 @@
 # Andres Crucitti
 
-**Senior PHP / Laravel Developer** — Los Angeles metro (PT), open to remote roles.
+**Senior PHP / Laravel Developer** — Los Angeles metro (PT). Remote preferred, open to hybrid or on-site in the LA area.
 
 15+ years building, integrating, deploying, and supporting production e-commerce and business applications in PHP — from initial schema design through deployment, on-call troubleshooting, and years of ongoing ownership. Strongest in Laravel, Livewire, REST integrations, MySQL, automated testing, and the Linux and Docker infrastructure underneath.
 
-The three projects below are mine end to end: **750+ automated tests** between them, CI running PHPStan, Rector, Pint, Pest and real-browser tests on every push, and an open-source licence on each.
+The three projects below are mine end to end: **750+ automated tests** between them, CI gating every push on static analysis and the full suite (including real-browser tests), and an open-source licence on each.
 
 ## Current focus
 
@@ -38,7 +38,9 @@ All three were built with AI-assisted workflows and full review — the test sui
 
 ## What I am looking for
 
-Permanent full-time or part-time PHP/Laravel roles, especially remote positions where I can build and support real products as part of an engineering team. Also open to backend, platform, and Linux-oriented roles that benefit from a developer with production infrastructure experience.
+Permanent full-time or part-time PHP/Laravel roles where I can build and support real products as part of an engineering team. Also open to backend, platform, and Linux-oriented roles that benefit from a developer with production infrastructure experience.
+
+Remote is my preference, but I am equally open to hybrid or on-site work anywhere in the Los Angeles metro area — I drive and am happy to be in an office when that is how the team works best.
 
 ## Contact
 
