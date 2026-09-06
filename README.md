@@ -8,15 +8,14 @@ The three projects below are mine end to end, each with a real automated test su
 
 [Resume (PDF)](./Andres-Crucitti-PHP-Laravel-Developer.pdf)
 
-## Current focus
+## Technical skills
 
-- PHP 8.x, Laravel, Livewire/Volt, Alpine.js, and Tailwind CSS
-- REST APIs, third-party integrations, queues, and automation
-- MySQL schema design, query optimization, SQLite, and Redis
-- Automated testing with Pest, PHPUnit, and Playwright
-- PHPStan, Rector, CI/CD, and GitHub Actions
-- Linux, Docker Compose, AWS, Nginx, Apache, and Cloudflare
-
+- **PHP/Laravel**: PHP 8.x, Laravel, Livewire/Volt, Composer, REST APIs, object-oriented design, SOLID principles
+- **Testing & quality**: Automated testing with Pest, PHPUnit, and Playwright; PHPStan, Rector; CI/CD with GitHub Actions
+- **Data & performance**: MySQL, SQLite, Redis, schema design, query optimization
+- **Frontend & platforms**: JavaScript, Alpine.js, Tailwind CSS, Bootstrap, HTML/CSS, OpenCart, WordPress
+- **Infrastructure & delivery**: Linux, Docker/Compose, AWS EC2/SES/SNS, Nginx, Apache, Cloudflare, Git
+ 
 ## Experience snapshot
 
 15+ years of continuous hands-on PHP development and systems administration, primarily as the principal developer for one small-business owner across several business ventures:
