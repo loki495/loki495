@@ -30,6 +30,8 @@ The four projects below are mine end to end, each with a real automated test sui
 
 A personal-finance application that syncs bank and credit transactions through **Plaid**, with hierarchical user categories, rule-based auto-categorization, transfer matching, and Chart.js reporting. **629 tests** (Pest + Playwright) on a CI pipeline that runs the suite against **both SQLite and a live MySQL 8 service**, then builds the production Docker image, boots it, and smoke-tests it. PHPStan, Rector, Pint and Peck gate every push.
 
+Demo login: `test@example.com` / `password`
+
 ### [Sessioneer](https://github.com/loki495/sessioneer) [![CI](https://github.com/loki495/sessioneer/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/sessioneer/actions/workflows/ci.yml) — PHP · tmux · UNIX sockets · MIT
 
 A self-hosted, LAN-only web UI for managing coding-agent sessions (Claude Code, Antigravity, OpenCode, Codex) from a phone or any browser — see blocked prompts, answer them, view live transcripts, and kill sessions without touching the machine directly. A two-runtime architecture keeps the Dockerized web UI from ever touching tmux or the host process table itself: it only speaks a small JSON protocol over a UNIX socket to a host-native agent, so the container can never become the process that spawns tmux's own server (which would trap it inside the container's namespace, unreachable from the host). **~24k lines of PHP**, backed by **35 dependency-free, self-isolating test files** (~2,180 assertions) that never touch the real tmux server.
@@ -38,9 +40,13 @@ A self-hosted, LAN-only web UI for managing coding-agent sessions (Claude Code, 
 
 A home-lab dashboard for organizing services into configurable cards, including links, plain Bash command output, and live API data from services such as Sonarr, Radarr, and NZBGet. It can also discover Docker services on LAN machines over the Docker API or SSH after configuring the target machine and starting a scan. Built to be genuinely distributable: no hostname, service, or credential exists anywhere in the code. **161 tests** in CI, plus a containerized real-browser suite.
 
+Demo login (HTTP Basic Auth): `demo@homie.ac495.net` / `homie-demo-2026`
+
 ### [Dibs](https://github.com/loki495/dibs) [![CI](https://github.com/loki495/dibs/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dibs/actions/workflows/ci.yml) — Laravel · Livewire 4 · MCP · MIT · [Demo](https://dibs-demo.ac495.net)
 
 A self-hosted todo list app that's MCP-native: AI agents (Claude, Codex) read, claim, and complete tasks through the same Actions the web UI uses, over a host-local stdio MCP server, with local SQLite authoritative and GitHub Issues/Projects as an asynchronous mirror. **444 tests** (1,324 assertions) plus PHPStan, Rector, and Pint gate every push.
+
+Demo login: `demo@example.com` / `demo-password-please-change`
 
 **Also:** [dotfiles](https://github.com/loki495/dotfiles) [![CI](https://github.com/loki495/dotfiles/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dotfiles/actions/workflows/ci.yml) — my Arch Linux and PHP dev-tooling setup. CI runs the real installer in a container on every push, asserts on every symlink it creates, then opens each supported language in a live tmux + Neovim session to confirm treesitter highlighting actually loads.
 
