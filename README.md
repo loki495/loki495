@@ -4,7 +4,7 @@
 
 15+ years building, integrating, deploying, and supporting production e-commerce and business applications in PHP — from initial schema design through deployment, on-call troubleshooting, and years of ongoing ownership. Strongest in Laravel, Livewire, REST integrations, MySQL, automated testing, and the Linux and Docker infrastructure underneath.
 
-The four projects below are mine end to end, each with a real automated test suite, CI gating every push on static analysis and the full suite (including browser tests), and an open-source licence. I use AI tools selectively to accelerate research and implementation; I review, test, and take responsibility for the architecture and final code.
+The four projects below are mine end to end, each with a real automated test suite, CI gating every push on static analysis and the full suite (including browser tests), and an open-source licence. They're active, ongoing work — I rotate focus among them rather than developing all four in parallel, so scope and feature set will continue to evolve. I use AI tools selectively to accelerate research and implementation; I review, test, and take responsibility for the architecture and final code.
 
 [Resume (PDF)](./Andres-Crucitti-PHP-Laravel-Developer.pdf)
 
