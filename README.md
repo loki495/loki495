@@ -24,7 +24,7 @@
 
 ## Selected projects
 
-These four open-source projects grew out of tools I wanted for my own use, they are not meant to replace or emulate a full featured product, but to have a customized version of what I needed at the time. I build and maintain them end to end, with automated tests and static analysis in CI. I rotate development focus among them, so features and interfaces continue to evolve. I’m sharing them for others to try, adapt, and help improve through feedback.
+These four open-source projects grew out of tools I wanted for my own use — purposefully focused rather than attempting to be all-things-to-all-people. I build and maintain them end to end, with comprehensive automated tests and static analysis in CI. I'm open to community contributions and feedback, and I welcome help growing them further.
 
 I use coding agents as implementation and review tools. I remain responsible for architecture, validation, tests, security decisions, and maintenance.
 
