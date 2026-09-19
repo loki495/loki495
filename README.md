@@ -4,7 +4,7 @@
 
 15+ years building, integrating, deploying, and supporting production e-commerce and business applications in PHP — from initial schema design through deployment, on-call troubleshooting, and years of ongoing ownership. Strongest in Laravel, Livewire, REST integrations, MySQL, automated testing, and the Linux and Docker infrastructure underneath.
 
-The four projects below are mine end to end, each with a real automated test suite, CI gating every push on static analysis and tests, and an open-source licence — Insights, Sessioneer, and Homie also include browser coverage. They're active, ongoing work — I rotate focus among them rather than developing all four in parallel, so scope and feature set will continue to evolve.
+These four open-source projects grew out of tools I wanted for my own use. I build and maintain them end to end, with automated tests and static analysis in CI. I rotate development focus among them, so features and interfaces continue to evolve. I’m sharing them for others to try, adapt, and help improve through feedback.
 
 [Resume (PDF)](./Andres-Crucitti-PHP-Laravel-Developer.pdf)
 
@@ -34,11 +34,11 @@ Demo login: `test@example.com` / `password`
 
 ### [Sessioneer](https://github.com/loki495/sessioneer) [![CI](https://github.com/loki495/sessioneer/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/sessioneer/actions/workflows/ci.yml) — PHP · tmux · UNIX sockets · MIT
 
-A self-hosted, LAN-only web UI for managing coding-agent sessions (Claude Code, Antigravity, OpenCode, Codex) from a phone or any browser — see blocked prompts, answer them, view live transcripts, and kill sessions without touching the machine directly. Dozens of hermetic test files with 2,000+ assertions, none of which touch a real tmux server.
+A self-hosted, LAN-only web UI for managing coding-agent sessions (Claude Code, Antigravity, OpenCode, Codex) from a phone or any browser — see blocked prompts, answer them, view live transcripts, and kill sessions without touching the machine directly. Dozens of hermetic test files, none of which touch a real tmux server.
 
 ### [Homie](https://github.com/loki495/homie) [![CI](https://github.com/loki495/homie/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/homie/actions/workflows/ci.yml) — Laravel 13 · Livewire 4 · Flux · MIT · [Demo](https://homie-demo.ac495.net)
 
-A home-lab dashboard for organizing services into configurable cards, including links, plain Bash command output, and live API data from services such as Sonarr, Radarr, and NZBGet. It can also discover Docker services on LAN machines over the Docker API or SSH after configuring the target machine and starting a scan. Built to be genuinely distributable: no hostname, service, or credential exists anywhere in the code. Real application login gates every deployment, including this demo. **200+ tests** in CI (as of Sept. 2026), plus a containerized real-browser suite.
+A home-lab dashboard for organizing services into configurable cards, including links, plain Bash command output, and live API data from services such as Sonarr, Radarr, and NZBGet. It can also discover Docker services on LAN machines over the Docker API or SSH after configuring the target machine and starting a scan. Built to be genuinely distributable: no hostname, service, or credential exists anywhere in the code. Real application login gates every deployment, including this demo. A large test suite in CI, plus a containerized real-browser suite.
 
 Demo login: `demo@homie.ac495.net` / `homie-demo-2026`
 
