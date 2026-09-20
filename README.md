@@ -64,5 +64,5 @@ Permanent PHP/Laravel roles building and supporting real products on an engineer
 ## Contact
 
 - [GitHub profile](https://github.com/loki495)
-- [LinkedIn](https://www.linkedin.com/in/andres-crucitti-32ab2313)
+- [LinkedIn](https://www.linkedin.com/in/andres-crucitti)
 - andres@ac495.net
