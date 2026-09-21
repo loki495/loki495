@@ -20,7 +20,11 @@ I’m looking for a permanent PHP/Laravel backend or full-stack role building an
 
 These four open-source projects grew out of tools I wanted for my own use. I build and maintain them end to end, with automated tests and static analysis in CI. Contributions and feedback are welcome.
 
-### [Insights](https://github.com/loki495/insights) [![CI](https://github.com/loki495/insights/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/insights/actions/workflows/ci.yml) — Laravel · Livewire Volt · Plaid · AGPL-3.0 · [Demo](https://insights-demo.ac495.net)
+### [Insights](https://github.com/loki495/insights)
+
+[![CI](https://github.com/loki495/insights/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/insights/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/loki495/insights/graph/badge.svg)](https://codecov.io/gh/loki495/insights) [![License: AGPL v3 (or later)](https://img.shields.io/badge/license-AGPL--3.0--or--later-blue.svg)](https://github.com/loki495/insights/blob/main/LICENSE)
+
+— Laravel · Livewire Volt · Plaid · [Demo](https://insights-demo.ac495.net)
 
 A self-hosted Laravel/Livewire personal-finance app that syncs bank and credit-card transactions through Plaid. Organize transactions with hierarchical categories and automatic categorization rules, match transfers between accounts, and explore finances through Chart.js reports.
 
@@ -28,7 +32,11 @@ CI runs application tests against SQLite and MySQL, exercises browser workflows,
 
 Demo login: `test@example.com` / `password`
 
-### [Dibs](https://github.com/loki495/dibs) [![CI](https://github.com/loki495/dibs/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dibs/actions/workflows/ci.yml) — Laravel · Livewire 4 · MCP · MIT · [Demo](https://dibs-demo.ac495.net)
+### [Dibs](https://github.com/loki495/dibs)
+
+[![CI](https://github.com/loki495/dibs/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dibs/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/loki495/dibs/graph/badge.svg)](https://codecov.io/gh/loki495/dibs) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/dibs/blob/main/LICENSE)
+
+— Laravel · Livewire 4 · MCP · [Demo](https://dibs-demo.ac495.net)
 
 A self-hosted Laravel/Livewire task tracker for people and coding agents. Organize projects and plans, create and label tasks, search with filters, and track work through completion. Agents connect through a host-local stdio MCP server to read, claim, and complete tasks using the same business actions as the web UI. Included skill instructions help a fresh agent session discover open work across projects and pick up the context it needs.
 
@@ -36,13 +44,21 @@ Local SQLite is the source of truth, with optional asynchronous mirroring to Git
 
 Demo login: `demo@example.com` / `demo-password-please-change`
 
-### [Sessioneer](https://github.com/loki495/sessioneer) [![CI](https://github.com/loki495/sessioneer/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/sessioneer/actions/workflows/ci.yml) — PHP · tmux · UNIX sockets · MIT
+### [Sessioneer](https://github.com/loki495/sessioneer)
+
+[![CI](https://github.com/loki495/sessioneer/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/sessioneer/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/sessioneer/blob/main/LICENSE)
+
+— PHP · tmux · UNIX sockets
 
 A self-hosted, LAN-only PHP web UI for easily managing multiple coding-agent sessions from a phone or browser. Launch sessions, respond to blocked prompts, browse live transcripts, and stop sessions across Claude Code, Codex, OpenCode, and Antigravity.
 
 The Dockerized web UI communicates over a UNIX socket with a host-native agent, which handles tmux sessions and connections to headless agent servers. This keeps process management in the host’s environment. Isolated automated tests and browser checks run in CI.
 
-### [Homie](https://github.com/loki495/homie) [![CI](https://github.com/loki495/homie/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/homie/actions/workflows/ci.yml) — Laravel 13 · Livewire 4 · Flux · MIT · [Demo](https://homie-demo.ac495.net)
+### [Homie](https://github.com/loki495/homie)
+
+[![CI](https://github.com/loki495/homie/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/homie/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/loki495/homie/graph/badge.svg)](https://codecov.io/gh/loki495/homie) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/homie/blob/main/LICENSE)
+
+— Laravel 13 · Livewire 4 · Flux · [Demo](https://homie-demo.ac495.net)
 
 A self-hosted Laravel/Livewire dashboard for organizing home-lab services into configurable cards. Combine service links, shell-command output, and live API data from services such as Sonarr, Radarr, and NZBGet. Discover Docker services on configured LAN machines through the Docker API or SSH.
 
@@ -50,7 +66,11 @@ Configuration can contain API tokens and SSH keys, so every deployment—includi
 
 Demo login: `demo@homie.ac495.net` / `homie-demo-2026`
 
-**Also:** [dotfiles](https://github.com/loki495/dotfiles) [![CI](https://github.com/loki495/dotfiles/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dotfiles/actions/workflows/ci.yml) — my Arch Linux config, Neovim and PHP dev-tooling setup, as well as my AI skills/rules/commands, all set up as symlinks in my dev machines as needed. CI runs the real installer in a container on every push, asserts on every symlink it creates, and for Neovim it opens each supported language in a live tmux + Neovim session to confirm treesitter highlighting loads.
+**Also:** [dotfiles](https://github.com/loki495/dotfiles)
+
+[![CI](https://github.com/loki495/dotfiles/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dotfiles/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/dotfiles/blob/main/LICENSE)
+
+— my Arch Linux config, Neovim and PHP dev-tooling setup, as well as my AI skills/rules/commands, all set up as symlinks in my dev machines as needed. CI runs the real installer in a container on every push, asserts on every symlink it creates, and for Neovim it opens each supported language in a live tmux + Neovim session to confirm treesitter highlighting loads.
 
 I use coding agents as implementation and review tools. I remain responsible for architecture, validation, tests, security decisions, and maintenance.
 
