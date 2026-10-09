@@ -38,7 +38,7 @@ Demo login: `test@example.com` / `password`
 
 — Laravel · Livewire 4 · MCP · [Demo](https://dibs-demo.ac495.net)
 
-A self-hosted Laravel/Livewire task tracker for people and coding agents. Organize projects and plans, create and label tasks, search with filters, and track work through completion. Agents connect through a host-local stdio MCP server to read, claim, and complete tasks using the same business actions as the web UI. Included skill instructions help a fresh agent session discover open work across projects and pick up the context it needs.
+An alpha-stage, self-hosted Laravel/Livewire task tracker for people and coding agents. Organize projects and plans, create and label tasks, search with filters, and track work through completion. Agents connect through a host-local stdio MCP server to read, claim, and complete tasks using the same business actions as the web UI. Included skill instructions help a fresh agent session discover open work across projects and pick up the context it needs.
 
 Local SQLite is the source of truth, with optional asynchronous mirroring to GitHub Issues and Projects. Task claims coordinate work between agents, while shared actions keep behavior consistent across the web and MCP interfaces. An automated test suite, PHPStan, Rector, and Pint run in CI.
 
@@ -50,9 +50,9 @@ Demo login: `demo@example.com` / `demo-password-please-change`
 
 — PHP · tmux · UNIX sockets
 
-A self-hosted, LAN-only PHP web UI for easily managing multiple coding-agent sessions from a phone or browser. Launch sessions, respond to blocked prompts, browse live transcripts, and stop sessions across Claude Code, Codex, OpenCode, and Antigravity.
+A self-hosted, LAN-only PHP web UI for easily managing multiple coding-agent sessions from a phone or browser. Launch sessions, respond to blocked prompts, browse live transcripts, and stop sessions across Claude Code, Codex, and OpenCode, plus experimental Antigravity support.
 
-The Dockerized web UI communicates over a UNIX socket with a host-native agent, which handles tmux sessions and connections to headless agent servers. This keeps process management in the host’s environment. Isolated automated tests and browser checks run in CI.
+The Dockerized web UI communicates over a UNIX socket with a host-native agent, which runs agents headless by default or in tmux, and connects to their headless servers. This keeps process management in the host’s environment. Isolated automated tests and browser checks run in CI.
 
 ### [Homie](https://github.com/loki495/homie)
 
@@ -64,7 +64,7 @@ A self-hosted Laravel/Livewire dashboard for organizing home-lab services into c
 
 Configuration can contain API tokens and SSH keys, so every deployment—including the demo—requires a login. Automated PHP tests and a containerized browser suite run in CI.
 
-Demo login: `demo@homie.ac495.net` / `homie-demo-2026`
+Demo login: `demo@example.test` / `homie-demo`
 
 **Also:** [dotfiles](https://github.com/loki495/dotfiles)
 
