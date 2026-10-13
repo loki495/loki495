@@ -1,6 +1,6 @@
 # Andres Crucitti
 
-**Senior PHP / Laravel Developer** — Los Angeles metro (PT). Open to remote, hybrid, or on-site in the LA area.
+**Senior PHP / Laravel Developer** — Los Angeles metro (PT).
 
 15+ years building, integrating, deploying, and supporting production e-commerce and business applications in PHP — from initial schema design through deployment, on-call troubleshooting, and years of ongoing ownership. Strongest in Laravel, Livewire, REST integrations, MySQL, automated testing, and the Linux and Docker infrastructure underneath.
 
@@ -24,7 +24,7 @@ These four open-source projects grew out of tools I wanted for my own use. I bui
 
 [![CI](https://github.com/loki495/insights/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/insights/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/loki495/insights/graph/badge.svg)](https://codecov.io/gh/loki495/insights) [![License: AGPL v3 (or later)](https://img.shields.io/badge/license-AGPL--3.0--or--later-blue.svg)](https://github.com/loki495/insights/blob/main/LICENSE)
 
-— Laravel · Livewire Volt · Plaid · [Demo](https://insights-demo.ac495.net)
+— Laravel · Livewire Volt · Plaid · v0.2.0 · [Demo](https://insights-demo.ac495.net)
 
 A self-hosted Laravel/Livewire personal-finance app that syncs bank and credit-card transactions through Plaid. Organize transactions with hierarchical categories and automatic categorization rules, match transfers between accounts, and explore finances through Chart.js reports.
 
@@ -36,7 +36,7 @@ Demo login: `test@example.com` / `password`
 
 [![CI](https://github.com/loki495/dibs/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dibs/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/loki495/dibs/graph/badge.svg)](https://codecov.io/gh/loki495/dibs) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/dibs/blob/main/LICENSE)
 
-— Laravel · Livewire 4 · MCP · [Demo](https://dibs-demo.ac495.net)
+— Laravel · Livewire 4 · MCP · alpha · [Demo](https://dibs-demo.ac495.net)
 
 An alpha-stage, self-hosted Laravel/Livewire task tracker for people and coding agents. Organize projects and plans, create and label tasks, search with filters, and track work through completion. Agents connect through a host-local stdio MCP server to read, claim, and complete tasks using the same business actions as the web UI. Included skill instructions help a fresh agent session discover open work across projects and pick up the context it needs.
 
@@ -48,7 +48,7 @@ Demo login: `demo@example.com` / `demo-password-please-change`
 
 [![CI](https://github.com/loki495/sessioneer/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/sessioneer/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/sessioneer/blob/main/LICENSE)
 
-— PHP · tmux · UNIX sockets
+— PHP · tmux · UNIX sockets · prerelease v0.2
 
 A self-hosted, LAN-only PHP web UI for easily managing multiple coding-agent sessions from a phone or browser. Launch sessions, respond to blocked prompts, browse live transcripts, and stop sessions across Claude Code, Codex, and OpenCode, plus experimental Antigravity support.
 
@@ -58,7 +58,7 @@ The Dockerized web UI communicates over a UNIX socket with a host-native agent, 
 
 [![CI](https://github.com/loki495/homie/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/homie/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/loki495/homie/graph/badge.svg)](https://codecov.io/gh/loki495/homie) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/homie/blob/main/LICENSE)
 
-— Laravel 13 · Livewire 4 · Flux · [Demo](https://homie-demo.ac495.net)
+— Laravel 13 · Livewire 4 · Flux · v0.2.0 · [Demo](https://homie-demo.ac495.net)
 
 A self-hosted Laravel/Livewire dashboard for organizing home-lab services into configurable cards. Combine service links, shell-command output, and live API data from services such as Sonarr, Radarr, and NZBGet. Discover Docker services on configured LAN machines through the Docker API or SSH.
 
@@ -70,7 +70,7 @@ Demo login: `demo@example.test` / `homie-demo`
 
 [![CI](https://github.com/loki495/dotfiles/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dotfiles/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/dotfiles/blob/main/LICENSE)
 
-— my Arch Linux config, Neovim and PHP dev-tooling setup, as well as my AI skills/rules/commands, all set up as symlinks in my dev machines as needed. CI runs the real installer in a container on every push, asserts on every symlink it creates, and for Neovim it opens each supported language in a live tmux + Neovim session to confirm treesitter highlighting loads.
+My Arch Linux, Neovim and PHP dev-tooling config plus AI skills and commands, installed as symlinks. CI runs the real installer in a container, asserts every symlink, and checks Neovim treesitter highlighting in a live tmux session.
 
 I use coding agents as implementation and review tools. I remain responsible for architecture, validation, tests, security decisions, and maintenance.
 
