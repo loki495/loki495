@@ -20,11 +20,13 @@ I’m looking for a permanent PHP/Laravel backend or full-stack role building an
 
 These four open-source projects grew out of tools I wanted for my own use. I build and maintain them end to end, with automated tests and static analysis in CI. Contributions and feedback are welcome.
 
+I use coding agents as implementation and review tools. I remain responsible for architecture, validation, tests, security decisions, and maintenance.
+
 ### [Insights](https://github.com/loki495/insights)
 
 [![CI](https://github.com/loki495/insights/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/insights/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/loki495/insights/graph/badge.svg)](https://codecov.io/gh/loki495/insights) [![License: AGPL v3 (or later)](https://img.shields.io/badge/license-AGPL--3.0--or--later-blue.svg)](https://github.com/loki495/insights/blob/main/LICENSE)
 
-— Laravel · Livewire Volt · Plaid · v0.2.0 · [Demo](https://insights-demo.ac495.net)
+— Laravel · Livewire Volt · Plaid · [Demo](https://insights-demo.ac495.net)
 
 A self-hosted Laravel/Livewire personal-finance app that syncs bank and credit-card transactions through Plaid. Organize transactions with hierarchical categories and automatic categorization rules, match transfers between accounts, and explore finances through Chart.js reports.
 
@@ -46,9 +48,9 @@ Demo login: `demo@example.com` / `demo-password-please-change`
 
 ### [Sessioneer](https://github.com/loki495/sessioneer)
 
-[![CI](https://github.com/loki495/sessioneer/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/sessioneer/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/sessioneer/blob/main/LICENSE)
+[![CI](https://github.com/loki495/sessioneer/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/sessioneer/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/sessioneer/blob/HEAD/LICENSE)
 
-— PHP · tmux · UNIX sockets · prerelease v0.2
+— PHP · tmux · UNIX sockets · prerelease
 
 A self-hosted, LAN-only PHP web UI for easily managing multiple coding-agent sessions from a phone or browser. Launch sessions, respond to blocked prompts, browse live transcripts, and stop sessions across Claude Code, Codex, and OpenCode, plus experimental Antigravity support.
 
@@ -58,7 +60,7 @@ The Dockerized web UI communicates over a UNIX socket with a host-native agent, 
 
 [![CI](https://github.com/loki495/homie/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/homie/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/loki495/homie/graph/badge.svg)](https://codecov.io/gh/loki495/homie) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/homie/blob/main/LICENSE)
 
-— Laravel 13 · Livewire 4 · Flux · v0.2.0 · [Demo](https://homie-demo.ac495.net)
+— Laravel 13 · Livewire 4 · Flux · [Demo](https://homie-demo.ac495.net)
 
 A self-hosted Laravel/Livewire dashboard for organizing home-lab services into configurable cards. Combine service links, shell-command output, and live API data from services such as Sonarr, Radarr, and NZBGet. Discover Docker services on configured LAN machines through the Docker API or SSH.
 
@@ -68,11 +70,9 @@ Demo login: `demo@example.test` / `homie-demo`
 
 **Also:** [dotfiles](https://github.com/loki495/dotfiles)
 
-[![CI](https://github.com/loki495/dotfiles/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dotfiles/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/dotfiles/blob/main/LICENSE)
+[![CI](https://github.com/loki495/dotfiles/actions/workflows/ci.yml/badge.svg)](https://github.com/loki495/dotfiles/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/loki495/dotfiles/blob/HEAD/LICENSE)
 
 My Arch Linux, Neovim and PHP dev-tooling config plus AI skills and commands, installed as symlinks. CI runs the real installer in a container, asserts every symlink, and checks Neovim treesitter highlighting in a live tmux session.
-
-I use coding agents as implementation and review tools. I remain responsible for architecture, validation, tests, security decisions, and maintenance.
 
 ## Open-source contributions
 
